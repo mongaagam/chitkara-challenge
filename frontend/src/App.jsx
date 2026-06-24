@@ -89,7 +89,7 @@ export default function App() {
 ]`;
 
   const [inputData, setInputData] = useState(defaultInput);
-  const [apiUrl, setApiUrl] = useState('http://localhost:3000');
+  const [apiUrl, setApiUrl] = useState('https://backend-two-ruddy-50.vercel.app');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [response, setResponse] = useState(null);
